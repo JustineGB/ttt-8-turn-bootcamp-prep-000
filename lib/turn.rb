@@ -37,4 +37,4 @@ def turn(board)
   index = input_to_index(user_input)
 end
 
-display_board(move)
+display_board(turn)
