@@ -31,4 +31,8 @@ def input_to_index(user_input)
 
 def turn(board)
   puts "Please enter 1-9:"
+  if integer.between?(1, 9)
+    display_board(move)
+  else 
+    puts "Please enter 1-9:"
 end
