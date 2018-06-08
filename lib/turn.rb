@@ -30,11 +30,9 @@ def input_to_index(user_input)
    end
 
 def turn(board)
-  puts "Please enter 1-9:"
-  if valid_move == true
-    display_board(board)
-  else
+until valid_move? = true
     puts "Please enter 1-9:"
-    until valid_move == true
+  end
 end
-end
+
+display_board(board)
